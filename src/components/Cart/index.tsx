@@ -5,8 +5,8 @@ import { sendGTMEvent } from "@next/third-parties/google";
 export default function Cart() {
   const handlePayment = () => {
     sendGTMEvent({
-      evnet: "payment",
-      value: true,
+      event: "payment",
+      value: "true",
     });
   };
   return (

@@ -7,8 +7,8 @@ export default function SignUpPage() {
   const router = useRouter();
   const handleSignup = () => {
     sendGTMEvent({
-      evnet: "signup",
-      value: true,
+      event: "signup",
+      value: "true",
     });
     router.push("/list");
   };
