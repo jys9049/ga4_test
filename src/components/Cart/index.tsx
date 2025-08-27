@@ -15,7 +15,9 @@ export default function Cart() {
       <br />
       <br />
       <br />
-      <button onClick={handlePayment}>결제</button>
+      <button onClick={handlePayment} style={{ cursor: "pointer" }}>
+        결제
+      </button>
     </div>
   );
 }

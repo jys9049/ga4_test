@@ -19,7 +19,9 @@ export default function SignUpPage() {
       <br />
       <br />
       <br />
-      <button onClick={handleSignup}>가입하기</button>
+      <button onClick={handleSignup} style={{ cursor: "pointer" }}>
+        가입하기
+      </button>
     </div>
   );
 }
